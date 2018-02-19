@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E95FFDC8203ABB5B00824BE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95FFDC7203ABB5B00824BE4 /* AppDelegate.swift */; };
-		E95FFDCA203ABB5B00824BE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95FFDC9203ABB5B00824BE4 /* ViewController.swift */; };
+		E95FFDCA203ABB5B00824BE4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95FFDC9203ABB5B00824BE4 /* BaseViewController.swift */; };
 		E95FFDCD203ABB5B00824BE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95FFDCB203ABB5B00824BE4 /* Main.storyboard */; };
 		E95FFDCF203ABB5B00824BE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E95FFDCE203ABB5B00824BE4 /* Assets.xcassets */; };
 		E95FFDD2203ABB5B00824BE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95FFDD0203ABB5B00824BE4 /* LaunchScreen.storyboard */; };
+		E95FFDDA203ACB4300824BE4 /* KeyCommandsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95FFDD9203ACB4300824BE4 /* KeyCommandsViewController.swift */; };
+		E95FFDDC203ACBA600824BE4 /* AddKeyCommandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95FFDDB203ACBA600824BE4 /* AddKeyCommandViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E95FFDC4203ABB5B00824BE4 /* TSKeyboardCommands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSKeyboardCommands.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E95FFDC7203ABB5B00824BE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E95FFDC9203ABB5B00824BE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E95FFDC9203ABB5B00824BE4 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		E95FFDCC203ABB5B00824BE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E95FFDCE203ABB5B00824BE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E95FFDD1203ABB5B00824BE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E95FFDD3203ABB5B00824BE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E95FFDD9203ACB4300824BE4 /* KeyCommandsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCommandsViewController.swift; sourceTree = "<group>"; };
+		E95FFDDB203ACBA600824BE4 /* AddKeyCommandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddKeyCommandViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				E95FFDC7203ABB5B00824BE4 /* AppDelegate.swift */,
-				E95FFDC9203ABB5B00824BE4 /* ViewController.swift */,
+				E95FFDC9203ABB5B00824BE4 /* BaseViewController.swift */,
+				E95FFDD9203ACB4300824BE4 /* KeyCommandsViewController.swift */,
+				E95FFDDB203ACBA600824BE4 /* AddKeyCommandViewController.swift */,
 				E95FFDCB203ABB5B00824BE4 /* Main.storyboard */,
 				E95FFDCE203ABB5B00824BE4 /* Assets.xcassets */,
 				E95FFDD0203ABB5B00824BE4 /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E95FFDCA203ABB5B00824BE4 /* ViewController.swift in Sources */,
+				E95FFDDC203ACBA600824BE4 /* AddKeyCommandViewController.swift in Sources */,
+				E95FFDDA203ACB4300824BE4 /* KeyCommandsViewController.swift in Sources */,
+				E95FFDCA203ABB5B00824BE4 /* BaseViewController.swift in Sources */,
 				E95FFDC8203ABB5B00824BE4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
